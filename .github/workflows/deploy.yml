@@ -13,7 +13,7 @@ jobs:
       - name: Use Node.js 13.10
         uses: actions/setup-node@v1
         with:
-          node-version: '13.10'
+          node-version: '14.5.0'
       - name: Install yarn and run unittest
         run: |
           yarn
